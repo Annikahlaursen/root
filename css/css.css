@@ -19,10 +19,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  header {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    }
+
   .header {
-    position: relative;
+    position: fixed;
     display: flex;
-    background-color: var(--lilla);
+    background-color: #6f5a7b9d;
+    width: 100%;
     padding-left: 40px;
     padding-top: 17px;
     padding-bottom: 17px;
@@ -85,40 +91,67 @@ body {
     font-size: 60px;
   }
 
-  main {
-    height: 600px;
-    background-color: var(--lilla);
-  }
 
   .storbilled {
+    padding-top: 8.3%;
     width: 90%;
     margin-left: 5%;
   }
 
   .skab {
-    margin-top: 10%;
-    height: 90%;
-    background-color: var(--blue);
+    margin-top: 8%;
   }
 
-  #skaber {
-    position: relative;
-    display: flex;
+  .skab h2 {
     font-size: 60px;
     color: var(--blue);
-    top: -10%;
-    left: 5%;
+    margin-left: 4.5%;
+    margin-bottom: 0;
   }
 
   .dot {
     height: 300px;
     width: 300px;
-    background-color: #bbb;
+    background-color: var(--beige);
     border-radius: 50%;
     display: inline-block;
-    margin: 5%;
-    margin-left: 6%;
-    margin-right: 6%;
+  }
+
+  .circle {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8%;
+    height: 522px;
+    background-color: var(--blue);
+  }
+
+  .circle img {
+    width: 60%;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+
+  .scroll-container {
+    margin-top: 13%;
+    background-color: var(--deepred);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  .scroll-container img {
+    padding: 10px;
+    height: 666px;
+  }
+
+  footer {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 0;
+    height: 120%;
+    background-color: var(--lilla);
+    padding: 15px;
   }
   
   @media screen and (max-height: 450px) {
