@@ -20,17 +20,27 @@ body {
   }
 
   .header {
-    padding: 20px;
+    position: relative;
+    display: flex;
     background-color: var(--lilla);
+    padding-left: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+  header img {
+    height: 60px;
+    margin-top: 16px;
+    display: flex;
+  }
+
+  #menu {
+    font-size:70px;
+    cursor:pointer;
   }
 
   #search {
-    display: flex;
-    float: right;
-  }
-  
-  #logo, #search {
-    height: 60px;
+    margin-left: 84%;
   }
 
   .overlay {
@@ -69,8 +79,8 @@ body {
   
   .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 23px;
+    left: 45px;
     font-size: 60px;
   }
   
