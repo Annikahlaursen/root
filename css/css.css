@@ -13,6 +13,7 @@
     --deepred: #b66676;
     --red: #e66b6f;
     --beige: #eaac8c;
+    --deeplilla: #5f3f77;
 }
 
 body {
@@ -135,7 +136,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding-top: 8%;
-    height: 522px;
+    padding-bottom: 8%;
     background-color: var(--blue);
   }
 
@@ -174,6 +175,35 @@ body {
     background-color: var(--lilla);
     padding: 15px;
   }
+
+  .footertekst {
+    display: flex;
+    padding: 3%;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* unvisited link */
+a:link {
+  color: var(--sort);
+}
+
+/* visited link */
+a:visited {
+  color: var(--blue);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--deeplilla);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
   
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
