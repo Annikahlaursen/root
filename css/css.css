@@ -86,8 +86,39 @@ body {
   }
 
   main {
-    height: 500px;
+    height: 600px;
     background-color: var(--lilla);
+  }
+
+  .storbilled {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .skab {
+    margin-top: 10%;
+    height: 90%;
+    background-color: var(--blue);
+  }
+
+  #skaber {
+    position: relative;
+    display: flex;
+    font-size: 60px;
+    color: var(--blue);
+    top: -10%;
+    left: 5%;
+  }
+
+  .dot {
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
   
   @media screen and (max-height: 450px) {
