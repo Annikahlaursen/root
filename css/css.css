@@ -26,11 +26,12 @@ body {
     padding-left: 40px;
     padding-top: 17px;
     padding-bottom: 17px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
 
   header img {
     height: 60px;
-    margin-top: 16px;
+    margin-top: 18px;
     display: flex;
   }
 
@@ -82,6 +83,11 @@ body {
     top: 23px;
     left: 45px;
     font-size: 60px;
+  }
+
+  main {
+    height: 500px;
+    background-color: var(--lilla);
   }
   
   @media screen and (max-height: 450px) {
