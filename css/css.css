@@ -164,40 +164,28 @@ body {
     position: relative;
     padding-top: 10%;
     display: flex;
-    justify-content: space-evenly;
+    gap: 10%;
+    justify-content: center;
+  }
+
+  .social img {
+    width: 5%;
   }
 
   footer {
     position: relative;
     margin-top: 8.3%;
-    bottom: 0;
-    height: 50%;
     background-color: var(--lilla);
-    padding: 15px;
+    padding: 10px;
   }
 
   .footertekst {
     display: flex;
     padding: 3%;
-    font-size: 24px;
+    font-size: 18px;
     justify-content: center;
     text-align: center;
   }
-
-  /* unvisited link */
-a:link {
-  color: var(--sort);
-}
-
-/* visited link */
-a:visited {
-  color: var(--blue);
-}
-
-/* mouse over link */
-a:hover {
-  color: var(--deeplilla);
-}
 
 footer ul {
     list-style-type: none;
