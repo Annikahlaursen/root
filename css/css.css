@@ -201,3 +201,29 @@ footer ul {
     right: 35px;
     }
   }
+
+/* styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    width: 100%;
+  }
+
+  .storbilled img {
+    width: 100%;
+  }
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .storbilled img {
+    position: relative;
+    display: flex;
+    margin-top: -100%;
+  }
+}
