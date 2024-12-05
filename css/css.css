@@ -20,6 +20,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  .header {
+    background-color: #6f5a7b9d;
+  }
+
   .storbilled {
     display: flexbox;
     width: 100%;
@@ -107,18 +111,6 @@ body {
   .info img {
     display: flex;
     justify-self: center;
-  }
-
-  .social {
-    position: relative;
-    padding-top: 10%;
-    display: flex;
-    gap: 10%;
-    justify-content: center;
-  }
-
-  .social img {
-    width: 5%;
   }
 
   footer {

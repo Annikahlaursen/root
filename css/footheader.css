@@ -28,7 +28,6 @@ body {
   .header {
     position: fixed;
     display: flex;
-    background-color: #6f5a7b9d;
     width: 100%;
     padding-left: 40px;
     padding-top: 17px;
@@ -91,6 +90,19 @@ body {
     left: 45px;
     font-size: 60px;
   }
+
+  .social {
+    position: relative;
+    padding-top: 10%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+  }
+
+  .social img {
+    width: 5%;
+  }
+
 
   footer {
     position: relative;
