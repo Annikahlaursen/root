@@ -156,7 +156,7 @@ body {
   }
 
   .scroll-container {
-    margin-top: 13%;
+    margin-top: 8.5%;
     background-color: var(--deepred);
     overflow: auto;
     white-space: nowrap;
@@ -166,6 +166,19 @@ body {
   .scroll-container img {
     padding: 10px;
     height: 555px;
+  }
+
+  .info {
+    display: flexbox;
+    background-color: var(--blue);
+    height: 555px;
+    align-content: center;
+    margin-top: 8.5%;
+  }
+
+  .info img {
+    display: flex;
+    justify-self: center;
   }
 
   .social {
@@ -223,10 +236,20 @@ footer ul {
 
 /* styles for mobile devices */
 @media only screen and (max-width: 767px) {
+
   body {
     font-size: 12px;
     width: 100%;
     margin: 0;
+  }
+
+  #search {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    gap: 75%;
   }
 
   #storbillede {
@@ -239,7 +262,37 @@ footer ul {
   }
 
   #zomzoom {
-    margin-top: 10%;
-    width: 666px;
+    display: flex;
+    margin-top: -60.5%;
+    width: 80%;
+    justify-self: center;
+  }
+
+  .firkant {
+    height: 422px;
+  }
+
+  .skab h2 {
+    font-size: 32px;
+    color: var(--blue);
+    margin-left: 10%;
+  }
+
+  #skaber {
+    margin-bottom: -1.5%;
+  }
+
+  .circle {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .info img {
+    width: 70%;
+  }
+
+  .social img {
+    width: 15%;
   }
 }
