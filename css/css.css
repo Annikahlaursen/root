@@ -97,10 +97,14 @@ body {
     width: 100%;
   }
 
-  .storbilled img {
+  #storbillede {
     margin-top: -38%;
     margin-left: 10%;
     width: 80%;
+  }
+
+  #zomzoom  {
+    display: none;
   }
 
   .firkant {
@@ -115,18 +119,18 @@ body {
   }
 
   .skab h2 {
-    font-size: 60px;
+    font-size: 41px;
     color: var(--blue);
-    margin-left: 4.5%;
+    margin-left: 10%;
   }
 
   #skaber {
-    margin-bottom: -1%;
+    margin-bottom: -0.7%;
   }
 
   .dot {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: var(--beige);
     border-radius: 50%;
     display: inline-block;
@@ -141,10 +145,14 @@ body {
   }
 
   .circle img {
-    width: 60%;
+    width: 50%;
+    position: relative;
     display: flex;
-    margin-top: 30%;
-    margin-left: 20%;
+    justify-self: center;
+    align-self: flex-end;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
   }
 
   .scroll-container {
@@ -221,9 +229,17 @@ footer ul {
     margin: 0;
   }
 
-  .storbilled img {
-    position: relative;
-    display: flex;
-    margin-top: -100%;
+  #storbillede {
+    display: none;
+  }
+
+  .storbilled {
+    display: flexbox;
+    width: 100%;
+  }
+
+  #zomzoom {
+    margin-top: 10%;
+    width: 666px;
   }
 }
