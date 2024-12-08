@@ -36,9 +36,24 @@ body {
     padding: 50px;
     color: white;
     margin-top: 8.3%;
-    max-height: 444px;
 }
 
 .section.frivillig {
-    height: 999px;
+    background-color: var(--blue);
+    margin-top: 15%;
   }
+
+.text-content {
+    max-width: 80%;
+    display: flexbox;
+    height: auto;
+}
+
+.text-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    float: left;
+    margin-top: -12.7%;
+    color: var(--blue);
+}
