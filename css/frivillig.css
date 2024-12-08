@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+:root {
+    --sort: #000;
+    --hvid: #fff;
+    --blue: #365171;
+    --lilla: #6f5a7b;
+    --deepred: #b66676;
+    --red: #e66b6f;
+    --beige: #eaac8c;
+    --deeplilla: #5f3f77;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header {
+    background-color: #b666769d;
+  }
+
+  .main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+    margin-top: 8.3%;
+    max-height: 444px;
+}
+
+.section.frivillig {
+    height: 999px;
+  }

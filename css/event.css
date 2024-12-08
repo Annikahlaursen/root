@@ -46,6 +46,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .section {
     display: flex;
     align-items: center;
@@ -55,16 +56,34 @@ body {
     margin-top: 8.3%;
     max-height: 444px;
 }
+
 .section.open-mic {
     background-color: var(--blue); /* Open Mic Background */
     flex-direction: row-reverse;
 }
+
 .section.talent-show {
     background-color: var(--lilla); /* Talent Show Background */
 }
+
+.section.minifactor {
+  background-color: var(--deepred);
+  flex-direction: row-reverse;
+}
+
+.section.skate {
+  background-color: var(--red);
+}
+
+.section.musik {
+  background-color: var(--beige);
+  flex-direction: row-reverse;
+}
+
 .text-content {
     max-width: 50%;
 }
+
 .text-content h1 {
     margin: 0;
     font-size: 2.5rem;
@@ -76,9 +95,9 @@ body {
 
 .headline {color: var(--blue);}
 .headline1 {color: var(--lilla);} /* Blue */
-.headline2 {color: #f44336;} /* Red */ 
-.headline3 {color: #e7e7e7; color: black;} /* Gray */ 
-.headline4 {color: #555555;} /* Black */
+.headline2 {color: var(--deepred);} /* Red */ 
+.headline3 {color: var(--red);} /* Gray */ 
+.headline4 {color: var(--beige);} /* Black */
 
 .text-content p {
     margin: 20px 0;
@@ -103,10 +122,83 @@ body {
     max-width: 40%;
 }
 
-.image img {
+#mic {
     width: 85%;
     border-radius: 5px;
     margin-bottom: 29px;
+}
+
+#spot {
+  margin-left: -100px;
+}
+
+#skater {
+  margin-top: 365px;
+}
+
+#musik {
+  margin-bottom: -105px;
+  margin-left: -55px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .section {
+      padding: 2rem;
+      flex-direction: column;
+  }
+
+  .text-content {
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .image {
+      max-width: 100%;
+      margin: 1rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+      padding: 1.5rem;
+  }
+
+  .text-content h1 {
+      font-size: 1.8rem;
+  }
+
+  .text-content a {
+      padding: 8px 16px;
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    padding: 1rem;
+  }
+
+  .text-content h1 {
+      width: 100%;
+      font-size: 1.5rem;
+      margin-top: -38px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      float: none;
+  }
+
+  .text-content a {
+      padding: 6px 12px;
+  }
+
+  .image {
+    display: none;
+  }
 }
 
   /*
