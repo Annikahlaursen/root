@@ -42,6 +42,75 @@ body {
     margin-top: -0.6%;
   }
 
+  .main-section {
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+    margin-top: 8.3%;
+    max-height: 444px;
+}
+.section.open-mic {
+    background-color: var(--blue); /* Open Mic Background */
+    flex-direction: row-reverse;
+}
+.section.talent-show {
+    background-color: var(--lilla); /* Talent Show Background */
+}
+.text-content {
+    max-width: 50%;
+}
+.text-content h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    float: right;
+    margin-top: -29.3%;
+    margin-right: 20%;
+}
+
+.headline {color: var(--blue);}
+.headline1 {color: var(--lilla);} /* Blue */
+.headline2 {color: #f44336;} /* Red */ 
+.headline3 {color: #e7e7e7; color: black;} /* Gray */ 
+.headline4 {color: #555555;} /* Black */
+
+.text-content p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.text-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1A3A75; /* Button background */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.text-content a:hover {
+    background-color: #0A2A55; /* Button hover */
+}
+
+.image {
+    max-width: 40%;
+}
+
+.image img {
+    width: 90%;
+    border-radius: 5px;
+    
+}
+
+  /*
+
   .indhold {
     display: flex;
     width: 100%;
@@ -74,7 +143,7 @@ body {
     color: var(--blue); 
     float: right;
   }
-
+*/
 
   /*
   .indhold {
