@@ -49,11 +49,31 @@ body {
     height: auto;
 }
 
+.paragraph {
+    margin-left: 60px;
+}
+
+.text-content p {
+    width: 80%;
+    line-height: 1.8;
+}
+
 .text-content h1 {
     margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
     float: left;
-    margin-top: -12.7%;
+    margin-top: -8%;
     color: var(--blue);
+}
+
+.text-content h2 {
+    font-size: 2rem;
+    line-height: 1.8;
+
+}
+
+.text-content h3 {
+    font-size: 1.5rem;
+    line-height: 1.8;
 }
