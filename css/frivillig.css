@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
+
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 :root {
@@ -114,8 +118,4 @@ body {
 
 .form-container button:hover {
     background-color: var(--lilla); /* Button hover effect */
-}
-
-#description {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
