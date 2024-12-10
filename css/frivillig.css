@@ -56,6 +56,7 @@ body {
 .text-content p {
     width: 80%;
     line-height: 1.8;
+    margin-bottom: 20px;
 }
 
 .text-content h1 {
