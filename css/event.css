@@ -1,8 +1,13 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--hvid);
 }
 
 :root {
@@ -142,7 +147,7 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .section {
       padding: 2rem;
       flex-direction: column;
@@ -159,7 +164,8 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
   .section {
       padding: 1.5rem;
   }
@@ -174,7 +180,11 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
   .section {
     display: flex;
     justify-content: center;
@@ -200,78 +210,6 @@ body {
     display: none;
   }
 }
-
-  /*
-
-  .indhold {
-    display: flex;
-    width: 100%;
-    height: 433px;
-    margin-top: 8.3%;
-  }
-
-  .indhold1 {
-    background-color: #6f5a7b;
-    flex-direction: row-reverse;
-  }
-
-  .indhold1 img {
-    width: 85%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    margin-top: -44px;
-  }
-
-  #opentext {
-    width: 50%;
-    margin-top: 110px;
-    margin-right: 100px;
-    padding: 40px;
-    color: var(--hvid);
-  }
-
-  #open {
-    font-size: 41px;
-    color: var(--blue); 
-    float: right;
-  }
-*/
-
-  /*
-  .indhold {
-    width: 100%;
-    height: 433px;
-    display: flexbox;
-    margin-top: 8.3%;
-  }
-
-  .indhold1 {
-    background-color: var(--blue);
-    flex-direction: row-reverse;
-  }
-
-  .indhold1 img {
-    width: 60%;
-    margin-left: 10px;
-    margin-top: -46px;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-
-  #opentext {
-    width: 50%;
-    margin: 10%;
-  }
-
-  #open {
-    font-size: 41px;
-    color: var(--blue); 
-    display: flexbox;
-    float: right;
-    margin-right: 10%;
-    margin-bottom: -0.7%;
-  }
-    */
 
   .button {
     background-color: #04AA6D; /* Green */
