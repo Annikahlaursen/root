@@ -27,8 +27,24 @@ body {
   }
 
 .header {
-    background-color: #b666769d;
+    background-color: #6f5a7bab;
   }
+
+.skate-forum {
+    padding-top: 5%;
+    background-color: var(--lilla);
+}
+
+.skate-forum img{
+    width: 70%;
+}
+
+#skater {
+    display: block;
+    padding: 15px;
+    background-color: var(--deepred);
+    width: 266px;
+}
 
 .chat-container {
     width: 70%;
