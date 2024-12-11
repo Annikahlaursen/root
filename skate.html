@@ -11,30 +11,30 @@
     <header>
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-              <a href="#">Service</a>
-              <a href="frivillig.html">Frivillig*</a>
-              <a href="arrangement.html">Arrangmenter*</a>
-              <a href="#">Fællesskab*</a>
-              <a href="#">Medlemskab</a>
-            </div>
-          </div>
-    
-                <div class="header">
-                    <span onclick="openNav()" id="menu">&#9776;</span>
-                    <img src="img/logo.webp" alt="logo">
-                    <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
+                <div class="overlay-content">
+                <a href="#">Service</a>
+                <a href="frivillig.html">Frivillig*</a>
+                <a href="arrangement.html">Arrangmenter*</a>
+                <a href="#">Fællesskab*</a>
+                <a href="#">Medlemskab</a>
                 </div>
+        </div>
     
-              <script>
-                function openNav() {
-                  document.getElementById("myNav").style.width = "100%";
-                }
+        <div class="header">
+            <span onclick="openNav()" id="menu">&#9776;</span>
+            <img src="img/logo.webp" alt="logo">
+            <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
+        </div>
+    
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
                 
-                function closeNav() {
-                  document.getElementById("myNav").style.width = "0%";
-                }
-                </script>
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
     </header>
     <main>
         <section class="skate-forum">
@@ -42,7 +42,25 @@
             <h2 id="skater">SKATE FORUM</h2>
         </section>
 
-        <span id="firkantdeeppink"></span>
+        <div class="gallery">
+            <!-- First Image -->
+            <div class="gallery-item small">
+                <img src="img/red2.png" alt="Image 1">
+            </div>
+    
+            <!-- Second Image (Larger Image) -->
+            <div class="gallery-item large">
+                <img src="img/red3.png" alt="Image 2">
+            </div>
+    
+            <!-- Third Image -->
+            <div class="gallery-item medium">
+                <img src="img/red1.png" alt="Image 3">
+            </div>
+        </div>
+
+        <div class="baggrund"></div>
+
         <div class="chat-container">
             <!-- Top Menu Bar -->
             <div class="chat-header">
@@ -57,7 +75,7 @@
                 <div class="message-container received">
                     <div class="avatar"></div>
                     <div class="message received">
-                        Hej! Hvordan går det?
+                        Hej! Mit navn er Osvald, det var min første gang i går på rampen!
                     </div>
                 </div>
 
@@ -65,7 +83,7 @@
                 <div class="message-container sent">
                     <div class="avatar"></div>
                     <div class="message sent">
-                        Det går godt, tak! Hvad med dig?
+                        Velkommen til Osvald! Det var dig der lavede det mærkværdelige trick på den hel store rampe?!
                     </div>
                 </div>
             </div>
