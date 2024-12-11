@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/skate.css">
+    <link rel="stylesheet" href="css/footheader.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Service</a>
+              <a href="frivillig.html">Frivillig*</a>
+              <a href="arrangement.html">Arrangmenter*</a>
+              <a href="#">Fællesskab*</a>
+              <a href="#">Medlemskab</a>
+            </div>
+          </div>
+    
+                <div class="header">
+                    <span onclick="openNav()" id="menu">&#9776;</span>
+                    <img src="img/logo.webp" alt="logo">
+                    <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
+                </div>
+    
+              <script>
+                function openNav() {
+                  document.getElementById("myNav").style.width = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("myNav").style.width = "0%";
+                }
+                </script>
+    </header>
+    <main>
+        <div class="chat-container">
+            <!-- Top Menu Bar -->
+            <div class="chat-header">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <!-- Chat Messages Area -->
+            <div class="chat-messages">
+                <!-- Received Message -->
+                <div class="message-container received">
+                    <div class="avatar"></div>
+                    <div class="message received">
+                        Hej! Hvordan går det?
+                    </div>
+                </div>
+
+                <!-- Sent Message -->
+                <div class="message-container sent">
+                    <div class="avatar"></div>
+                    <div class="message sent">
+                        Det går godt, tak! Hvad med dig?
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Bar -->
+            <div class="chat-input">
+                <input type="text" placeholder="Hvad har du på hjertet?" />
+                <button>
+                    <img src="https://via.placeholder.com/20x20?text=→" alt="Send">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
