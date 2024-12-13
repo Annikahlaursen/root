@@ -5,6 +5,7 @@
     max-width: 100%;
 }
 
+/* farve galleri */
 :root {
     --sort: #000;
     --hvid: #fff;
@@ -20,37 +21,42 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .header {
+/* gennemsigtig gradient på header */
+.header {
     background-color: #6f5a7b9d;
   }
 
-  .storbilled {
+.storbilled {
     display: flexbox;
     width: 100%;
   }
 
-  #storbillede {
+/* elementer for at få billedet til at ligge over baggrunden */
+#storbillede {
     margin-top: -38%;
     margin-left: 10%;
     width: 80%;
   }
 
-  #zomzoom  {
+/* zoom-billede af .storbilled, bruges i media */
+#zomzoom  {
     display: none;
   }
 
-  .firkant {
+/* baggrunds farve */
+.firkant {
     width: 100%;
     height: 666px;
     display: block;
     background-color: #6f5a7b;
   }
 
-  .skab {
+.skab {
     margin-top: 8%;
   }
 
-  .skab h2 {
+/* overskrift - Fællesskab */
+.skab h2 {
     font-size: 41px;
     color: var(--blue);
     margin-left: 10%;
@@ -60,6 +66,7 @@ body {
     margin-bottom: -0.7%;
   }
 
+/* dannelse af formen runde cirkler */
   .dot {
     height: 250px;
     width: 250px;
@@ -68,6 +75,7 @@ body {
     display: inline-block;
   }
 
+/* indstillinger for cirklerne */
   .circle {
     display: flex;
     justify-content: space-evenly;
@@ -76,6 +84,7 @@ body {
     background-color: var(--blue);
   }
 
+/* indstillinger for indholdet i cirklerne */
   .circle img {
     width: 50%;
     position: relative;
@@ -87,6 +96,7 @@ body {
     transform: translate(-50%, -50%);
   }
 
+/* billede slidehow */
   .scroll-container {
     margin-top: 8.5%;
     background-color: var(--deepred);
@@ -100,6 +110,7 @@ body {
     height: 555px;
   }
 
+/* infographic */
   .info {
     display: flexbox;
     background-color: var(--blue);
@@ -112,27 +123,6 @@ body {
     display: flex;
     justify-self: center;
   }
-
-  footer {
-    position: relative;
-    margin-top: 8.3%;
-    background-color: var(--lilla);
-    padding: 10px;
-  }
-
-  .footertekst {
-    display: flex;
-    padding: 3%;
-    font-size: 18px;
-    justify-content: center;
-    text-align: center;
-  }
-
-footer ul {
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-}
 
 /* styles for tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -208,7 +198,7 @@ footer ul {
   }
 }
 
-/* Særligt breakpoint til min mobil - iphone 12*/
+/* særligt breakpoint til min mobil - iphone 12*/
 @media only screen and (max-width: 390px) {
 
   .circle {

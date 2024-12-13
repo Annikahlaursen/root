@@ -9,6 +9,7 @@
     font-style: normal;
 }
 
+/* farve galleri */
 :root {
     --sort: #000;
     --hvid: #fff;
@@ -27,10 +28,12 @@ body {
     flex-direction: column;
   }
 
+/* gennemsigtig gradient på header */
 .header {
     background-color: #6f5a7bab;
   }
 
+/* baggrundsfarve og indstillinger */
 .skate-forum {
     padding-top: 5%;
     background-color: var(--lilla);
@@ -42,6 +45,7 @@ body {
     width: 70%;
 }
 
+/* overskrift ved siden af .skate-forum img */
 #skater{
     padding: 15px;
     background-color: var(--deepred);
@@ -52,11 +56,11 @@ body {
     font-size: 31px;
 }
 
-/* Gallery Layout */
+/* galleri layout */
 .gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two-column layout */
-    grid-gap: 40px; /* Space between grid items */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px; /* space mellem grid items */
     padding: 100px;
     background-color: var(--blue);
     margin-top: 8.3%;
@@ -69,23 +73,24 @@ body {
     align-items: center;
 }
 
-/* Image Styling */
+/* image indstillinger */
 .gallery-item img {
     display: block;
     max-width: 100%;
-    border: 10px solid var(--hvid); /* White frame around image */
-    box-shadow: 30px 40px 0px black; /* Black shadow for the 3D effect */
+    border: 10px solid var(--hvid); /* hvid frame bag billede */
+    box-shadow: 30px 40px 0px black; /* sort frame bag billede - 3D effect */
 }
 
 .gallery-item.small {width: 50%; justify-self: center;}
 .gallery-item.medium {width: 40%; justify-self: end;}
 
-/* Larger Image Styling */
+/* store billede - camilla der skater */
 .gallery-item.large {
-    grid-column: span 1; /* Span two columns */
+    grid-column: span 1; /* Span en columns */
     width: 60%;
 }
 
+/* baggrund bag chat */
 .baggrund {
     margin-top: 8.3%;
     display: flex;
@@ -94,19 +99,20 @@ body {
     background-color: var(--deepred);
 }
 
+/* indstillinger for chatten */
 .chat-container {
     margin-top: -47%;
     width: 70%;
     height: 600px;
     background-color: var(--hvid);
-    box-shadow: 30px 40px 0px black; /* Black shadow for the 3D effect */
+    box-shadow: 30px 40px 0px black; /* sort frame - 3D effect */
     display: flex;
     flex-direction: column;
     overflow: hidden;
     justify-self: center;
 }
 
-/* Top Menu Bar */
+/* top menu bar */
 .chat-header {
     background-color: var(--blue);
     display: flex;
@@ -119,12 +125,12 @@ body {
 .chat-header div {
     width: 30%;
     height: 20px;
-    background-color: var(--grey); /* Placeholder for icons/buttons */
+    background-color: var(--grey);
     margin: 0 5px;
     border-radius: 5px;
 }
 
-/* Chat Area */
+/* indstillinger for chat-form */
 .chat-messages {
     flex: 1;
     padding: 10px;
@@ -142,20 +148,20 @@ body {
 }
 
 .message.sent {
-    background-color: var(--blue); /* Sent message color */
+    background-color: var(--blue); /* sent message color */
     color: var(--hvid);
     margin-left: auto;
     border-bottom-right-radius: 0;
 }
 
 .message.received {
-    background-color: #F1F1F1; /* Received message color */
+    background-color: #F1F1F1; /* eeceived message color */
     color: var(--sort);
     margin-right: auto;
     border-bottom-left-radius: 0;
 }
 
-/* Message Avatars */
+/* profilbillede-frame */
 .message-container {
     display: flex;
     align-items: flex-end;
@@ -163,7 +169,7 @@ body {
 }
 
 .message-container.sent {
-    flex-direction: row-reverse; /* Sent messages on the right */
+    flex-direction: row-reverse; /* sent messages on the right */
 }
 
 .avatar {
@@ -173,7 +179,7 @@ body {
     border-radius: 50%;
 }
 
-/* Input Bar */
+/* input bar */
 .chat-input {
     display: flex;
     align-items: center;

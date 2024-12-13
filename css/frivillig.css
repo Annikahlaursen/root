@@ -27,7 +27,7 @@ body {
   }
 
 .header {
-    background-color: #b666769d;
+    background-color: var(--deepred);
   }
 
 .section {

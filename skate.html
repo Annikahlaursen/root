@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
     <meta name="title" content="Radar Fællessskab">
     <meta name="description" content="Hjemmesiden er et mødested for unge, der interesserer sig for skating eller niche musik.">
     <meta name="keywords" content="Skating, skate aarhus, forum, Rader, musik aarhus">
@@ -16,6 +17,7 @@
 </head>
 <body>
     <header>
+        <!-- navigationsbar - burger -->
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
@@ -27,13 +29,14 @@
                 <a href="#">Medlemskab</a>
                 </div>
         </div>
-    
+        <!-- Elementer i header - Logo og søgefunktion -->
         <div class="header">
             <span onclick="openNav()" id="menu">&#9776;</span>
             <img src="img/logo.webp" alt="logo">
             <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
         </div>
-    
+
+        <!-- navigationsbar, der får den til at fylde hele skærmen, når den foldes ud -->
         <script>
             function openNav() {
               document.getElementById("myNav").style.width = "100%";
@@ -45,41 +48,42 @@
         </script>
     </header>
     <main>
+        <!-- skate section -->
         <section class="skate-forum">
             <img src="img/skateradar.webp" alt="Send">
             <h2 id="skater">SKATE FORUM</h2>
         </section>
 
+        <!-- galleri section -->
         <div class="gallery">
-            <!-- First Image -->
+            <!-- radar graffity -->
             <div class="gallery-item small">
-                <img src="img/red2.png" alt="Image 1">
+                <img src="img/red2.png" alt="facade af radar, hvor der er graffity">
             </div>
-    
-            <!-- Second Image (Larger Image) -->
+            <!-- skating -->
             <div class="gallery-item large">
-                <img src="img/red3.png" alt="Image 2">
+                <img src="img/red3.png" alt="søs der skater ned af en rampe">
             </div>
-    
-            <!-- Third Image -->
+            <!-- radar facade -->
             <div class="gallery-item medium">
-                <img src="img/red1.png" alt="Image 3">
+                <img src="img/red1.png" alt="facade af radar, hvor der er et træ i midten">
             </div>
         </div>
 
+        <!-- baggrundsfarve -->
         <div class="baggrund"></div>
 
         <div class="chat-container">
-            <!-- Top Menu Bar -->
+            <!-- de grå elementer øverst i chatten -->
             <div class="chat-header">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
 
-            <!-- Chat Messages Area -->
+            <!-- chat messages -->
             <div class="chat-messages">
-                <!-- Received Message -->
+                <!-- modtaget messages -->
                 <div class="message-container received">
                     <div class="avatar"></div>
                     <div class="message received">
@@ -87,7 +91,7 @@
                     </div>
                 </div>
 
-                <!-- Sent Message -->
+                <!-- sendt message -->
                 <div class="message-container sent">
                     <div class="avatar"></div>
                     <div class="message sent">
@@ -96,7 +100,7 @@
                 </div>
             </div>
 
-            <!-- Input Bar -->
+            <!-- input bar -->
             <div class="chat-input">
                 <input type="text" placeholder="Hvad har du på hjertet?" />
                 <button>
@@ -107,12 +111,13 @@
     </main>
 
     <footer>
+        <!-- sociale platforme -->
         <div class="social">
             <img src="img/fb.webp" alt="">
             <img src="img/ig.webp" alt="">
             <img src="img/tt.webp" alt="">
           </div>
-    
+        <!-- oplysninger -->
             <section class="footertekst">
               <ul>
                   <li>Udarbejdet af: Annika Hecto Laursen</li><br>

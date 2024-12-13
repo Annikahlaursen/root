@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
     <meta name="title" content="Radar Fællessskab">
     <meta name="description" content="Hjemmesiden er et mødested for unge, der interesserer sig for skating eller niche musik.">
     <meta name="keywords" content="Skating, skate aarhus, forum, Rader, musik aarhus">
@@ -16,24 +17,26 @@
 </head>
 <body>
     <header>
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-            <a href="#">Service</a>
-            <a href="frivillig.html">Frivillig*</a>
-            <a href="arrangement.html">Arrangmenter*</a>
-            <a href="#">Fællesskab</a>
-            <a href="skate.html">Skate-forum*</a>
-            <a href="#">Medlemskab</a>
-            </div>
-      </div>
+         <!-- navigationsbar - burger -->
+         <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                <a href="#">Service</a>
+                <a href="frivillig.html">Frivillig*</a>
+                <a href="arrangement.html">Arrangmenter*</a>
+                <a href="#">Fællesskab</a>
+                <a href="skate.html">Skate-forum*</a>
+                <a href="#">Medlemskab</a>
+                </div>
+        </div>
+        <!-- Elementer i header - Logo og søgefunktion -->
+        <div class="header">
+            <span onclick="openNav()" id="menu">&#9776;</span>
+            <a href="index.html"><img src="img/logo.webp" alt="logo"></a>
+            <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
+        </div>
 
-            <div class="header">
-                <span onclick="openNav()" id="menu">&#9776;</span>
-                <a href="index.html"><img src="img/logo.webp" alt="logo"></a>
-                <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
-            </div>
-
+        <!-- navigationsbar, der får den til at fylde hele skærmen, når den foldes ud -->
           <script>
             function openNav() {
               document.getElementById("myNav").style.width = "100%";
@@ -45,13 +48,14 @@
             </script>
     </header>
     <main>
+        <!-- section arrangement -->
         <section>
             <span class="firkantdeeppink"></span>
             <h2 id="arrang">ARRANGEMENT</h2>
         </section>
 
         <div class="main-section">
-          <!-- Open Mic Section -->
+          <!-- open mic section -->
           <div class="section open-mic">
               <div class="text-content">
                   <h1 class="headline">OPEN MIC</h1>
@@ -63,7 +67,7 @@
               </div>
           </div>
   
-          <!-- Talent Show Section -->
+          <!-- talent show section -->
           <div class="section talent-show">
               <div class="text-content">
                   <h1 class="headline1">TALENTSHOW</h1>
@@ -75,7 +79,7 @@
               </div>
           </div>
 
-          <!-- Mini X-factor Section -->
+          <!-- mini x-factor section -->
           <div class="section minifactor">
             <div class="text-content">
                 <h1 class="headline2">MINI X-FACTOR</h1>
@@ -87,7 +91,7 @@
             </div>
         </div>
 
-          <!-- Talent Show Section -->
+          <!-- talent show section -->
           <div class="section skate">
             <div class="text-content">
                 <h1 class="headline3">SKATE KONKURRENCE</h1>
@@ -99,7 +103,7 @@
             </div>
         </div>
 
-          <!-- Talent Show Section -->
+          <!-- talent show section -->
           <div class="section musik">
             <div class="text-content">
                 <h1 class="headline4">MUSIK PÅ TVÆRS</h1>
@@ -112,40 +116,15 @@
         </div>
       </div>
 
-
-<!--- prøv lige noget andet
-        <section>
-          <h2 id="open">OPEN MIC</h2>
-          <div class="indhold indhold1">
-            <span class="firkant"></span>
-            <div id="opentext">
-                <p>Radars Open Mic er scenen, hvor spirende kunstnere får mulighed for at vise deres talent. Uanset om du er musiker, digter eller stand-up-komiker, er dette stedet, hvor du kan dele din passion med et engageret publikum. Aftenen er uformel og inspirerende – perfekt for både nybegyndere og garvede performere.
-                </p>
-                <button class="button">Se her!</button>
-            </div>
-            <div class="open mic">
-                <span class="background1"></span>
-                <img src="img/mic.png" alt="illustraion af krop med mikrofon som hoved">
-            </div>
-          </div>
-        </section>
-    -->
-
-        <!-- save for later
-            <button class="button button2">Blue</button>
-            <button class="button button3">Red</button>
-            <button class="button button4">Gray</button>
-            <button class="button button5">Black</button>
-            -->
-  
     </main>
     <footer>
+        <!-- sociale platforme -->
         <div class="social">
             <img src="img/fb.webp" alt="">
             <img src="img/ig.webp" alt="">
             <img src="img/tt.webp" alt="">
           </div>
-    
+        <!-- oplysninger -->
             <section class="footertekst">
               <ul>
                   <li>Udarbejdet af: Annika Hecto Laursen</li><br>
