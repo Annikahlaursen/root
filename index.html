@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
     <meta name="title" content="Radar Fællessskab">
     <meta name="description" content="Hjemmesiden er et mødested for unge, der interesserer sig for skating eller niche musik.">
     <meta name="keywords" content="Skating, skate aarhus, forum, Rader, musik aarhus">
@@ -16,41 +17,45 @@
 </head>
 <body>
     <header>
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-            <a href="#">Service</a>
-            <a href="frivillig.html">Frivillig*</a>
-            <a href="arrangement.html">Arrangmenter*</a>
-            <a href="#">Fællesskab</a>
-            <a href="skate.html">Skate-forum*</a>
-            <a href="#">Medlemskab</a>
-            </div>
-    </div>
+        <!-- navigationsbar - burger -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+              <a href="#">Service</a>
+              <a href="frivillig.html">Frivillig*</a>
+              <a href="arrangement.html">Arrangmenter*</a>
+              <a href="#">Fællesskab</a>
+              <a href="skate.html">Skate-forum*</a>
+              <a href="#">Medlemskab</a>
+              </div>
+      </div>
+      <!-- Elementer i header - Logo og søgefunktion -->
+      <div class="header">
+          <span onclick="openNav()" id="menu">&#9776;</span>
+          <img src="img/logo.webp" alt="logo">
+          <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
+      </div>
 
-            <div class="header">
-                <span onclick="openNav()" id="menu">&#9776;</span>
-                <img src="img/logo.webp" alt="logo">
-                <img src="img/search.png" alt="søgefunktion formet som en radar" id="search">
-            </div>
-
-          <script>
-            function openNav() {
-              document.getElementById("myNav").style.width = "100%";
-            }
-            
-            function closeNav() {
-              document.getElementById("myNav").style.width = "0%";
-            }
-            </script>
+      <!-- navigationsbar, der får den til at fylde hele skærmen, når den foldes ud -->
+      <script>
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+          }
+              
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+      </script>
     </header>
     <main>
+      <!-- radar facade section -->
       <section class="storbilled">
         <span class="firkant"></span>
         <img src="img/udefra.png" alt="billede taget udefra radar" id="storbillede">
         <img src="img/udefrazoom.png" alt="billede taget udefra radar, men zoomet ind" id="zomzoom">
       </section>
 
+      <!-- runde cirkler -->
       <div class="skab">
         <h2 id="skaber">FÆLLESSKAB</h2>
         <div class="circle">
@@ -60,6 +65,7 @@
         </div>
       </div>
 
+      <!-- billede slideshow -->
       <div class="scroll-container">
         <img src="img/red3.png" alt="Cinque Terre">
         <img src="img/red2.png" alt="Forest">
@@ -67,6 +73,7 @@
         <img src="img/red1.png" alt="Mountains">
       </div>
 
+      <!-- infographic -->
       <div class="info">
         <img src="img/infographic.webp" alt="billede af infographic">
       </div>

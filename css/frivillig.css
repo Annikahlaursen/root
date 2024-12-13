@@ -9,6 +9,7 @@
     font-style: normal;
 }
 
+/* farve galleri */
 :root {
     --sort: #000;
     --hvid: #fff;
@@ -26,10 +27,12 @@ body {
     flex-direction: column;
   }
 
+/* farve på header */
 .header {
     background-color: var(--deepred);
   }
 
+/* indstillinger for frivillig section */
 .section {
     display: flex;
     align-items: center;
@@ -45,22 +48,26 @@ body {
     padding-bottom: 15px;
   }
 
+/* overall tekst */
 .text-content {
     max-width: 80%;
     display: flexbox;
     height: auto;
 }
 
+/* indstillinger for brødtekst */
 .paragraph {
     margin-left: 60px;
 }
 
+/* indstillinger for brødtekst i text-content */
 .text-content p {
     width: 80%;
     line-height: 1.8;
     margin-bottom: 20px;
 }
 
+/* indstillinger for headline one */
 .text-content h1 {
     margin: 0;
     font-size: 2.5rem;
@@ -70,11 +77,13 @@ body {
     color: var(--blue);
 }
 
+/* indstillinger for headline two */
 .text-content h3 {
     font-size: 1.5rem;
     line-height: 1.8;
 }
 
+/* formular */
 .form-container {
     width: 100%;
     padding: 20px;
@@ -84,30 +93,32 @@ body {
 
 .form-container label {
     display: block;
-    color: var(--hvid); /* Label text color */
+    color: var(--hvid); /* label text color */
     font-size: 1rem;
     margin-bottom: 5px;
 }
 
+/* indstillinger for formular */
 .form-container input,
 .form-container textarea,
 .form-container button {
     width: 80%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 10px solid var(--deeplilla); /* Border color */
+    border: 10px solid var(--deeplilla); /* border color */
     border-radius: 5px;
-    background-color: var(--lilla); /* Input background matching design */
+    background-color: var(--lilla); /* input background matching design */
     color: var(--hvid);
     font-size: 1rem;
     box-sizing: border-box;
 }
 
 .form-container textarea {
-    height: 100px; /* Fixed height for text area */
-    resize: none; /* Disable resize to match design */
+    height: 100px; /* fixed height for text area */
+    resize: none; /* disable resize to match design */
 }
 
+/* indstillinger for ansøg-knap */
 .form-container button {
     background-color: var(--deeplilla);
     border: none;
@@ -117,9 +128,10 @@ body {
 }
 
 .form-container button:hover {
-    background-color: var(--lilla); /* Button hover effect */
+    background-color: var(--lilla); /* button hover effect */
 }
 
+/* responsive */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section.frivillig {
         margin-top: 25%;
