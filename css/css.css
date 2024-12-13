@@ -181,7 +181,7 @@ footer ul {
   }
 
   #skaber {
-    margin-bottom: -1.5%;
+    margin-bottom: -2.2%;
   }
 
   .circle {
@@ -190,7 +190,20 @@ footer ul {
     gap: 30px;
   }
 
+  .info {
+    height: 333px;
+  }
+
   .info img {
     width: 70%;
+  }
+
+  .scroll-container {
+    padding: 20px;
+  }
+
+  .scroll-container img {
+    height: 333px;
+    width: auto;
   }
 }
