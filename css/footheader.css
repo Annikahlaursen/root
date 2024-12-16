@@ -27,17 +27,16 @@ body {
     display: flex;
     width: 100%;
     padding-left: 40px;
-    padding-top: 17px;
+    padding-top: 13px;
     padding-bottom: 17px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1); /* gradient - 3D effekt */
-    align-items: center;
+    align-items:flex-end;
   }
 
 /* icon formatering */
 header img {
     height: 60px;
     margin-top: 30px;
-    display: flex;
   }
 
 /* burger menu */
@@ -97,15 +96,17 @@ header img {
 
 /* sociale medier */
 .social {
+    width: 100%;
     position: relative;
     padding-top: 10%;
     display: flex;
-    gap: 10%;
     justify-content: center;
   }
 
 .social img {
     width: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 
 footer {
@@ -171,6 +172,12 @@ footer a {
       justify-content: space-between;
       padding-right: 20px;
       align-items: center;
+    }
+
+    .social {
+      flex-direction: column;
+      gap: 25px;
+      justify-content: center;
     }
 
     .social img {
