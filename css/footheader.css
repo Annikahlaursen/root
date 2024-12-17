@@ -176,8 +176,8 @@ footer a {
 
     .social {
       flex-direction: column;
-      gap: 25px;
-      justify-content: center;
+      gap: 20px;
+      align-items: center;
     }
 
     .social img {

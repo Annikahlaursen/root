@@ -234,6 +234,7 @@ body {
     .chat-container {
         margin-top: -150%;
         margin-bottom: 20%;
+        justify-content: center;
     }
 
     .baggrund {
